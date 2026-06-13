@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trilha do Tabuleiro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="hud">
+    <span>🏁 Fase <b id="fase">1</b>/20</span>
+    <span>⭐ <b id="pontos">0</b></span>
+    <span>🪙 <b id="moedas">0</b></span>
+    <span id="vidas">❤️❤️❤️</span>
+  </div>
+  <h1>TRILHA DO TABULEIRO</h1>
+</header>
+
+<main>
+  <div id="tabuleiro" class="tabuleiro"></div>
+
+  <div class="controles">
+    <button id="rolar" class="dado">🎲 Rolar Dado</button>
+    <button id="loja" class="loja">🛒 Loja</button>
+  </div>
+
+  <div id="mensagem" class="mensagem">Bem-vindo à trilha!</div>
+  <div id="dado-result" class="dado-result"></div>
+</main>
+
+<div id="fork-modal" class="modal hidden">
+  <div class="modal-box">
+    <h2>🔀 Bifurcação!</h2>
+    <p>Escolha seu caminho:</p>
+    <button id="atalho">⚡ Atalho (+3 casas)</button>
+    <button id="seguro">🛡️ Rota Segura (+15⭐)</button>
+  </div>
+</div>
+
+<div id="loja-modal" class="modal hidden">
+  <div class="modal-box">
+    <h2>🛒 Loja</h2>
+    <button data-item="dado">🎲 Dado Extra - 20⭐</button>
+    <button data-item="escudo">🛡️ Escudo - 25⭐</button>
+    <button data-item="impulso">🚀 Impulso - 15⭐</button>
+    <button data-item="vida">💖 Vida - 40⭐</button>
+    <button data-item="trevo">🍀 Trevo - 18⭐</button>
+    <button class="fechar">Fechar</button>
+  </div>
+</div>
+
+<div id="fim-modal" class="modal hidden">
+  <div class="modal-box">
+    <h2 id="fim-titulo">🏆 Fase Concluída!</h2>
+    <p id="fim-texto"></p>
+    <button id="proxima">Próxima Trilha</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
