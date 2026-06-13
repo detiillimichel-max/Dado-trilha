@@ -4,7 +4,7 @@
 
 ![Jogo](https://img.shields.io/badge/jogo-HTML5-brightgreen) ![Crianças](https://img.shields.io/badge/idade-5+-blue) ![Fases](https://img.shields.io/badge/fases-20-orange)
 
-**▶️ Jogar Agora:** https://seuusuario.github.io/trilha-magica
+**▶️ Jogar Agora:** https://detiillimichel-max.github.io/Dado-trilha/
 
 ---
 
